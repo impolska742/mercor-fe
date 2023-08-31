@@ -5,22 +5,24 @@ import "./index.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="download-buttons">
-        <button>
-          <BiLogoApple size={50} color="var(--primary-green)" />
-          <p>App store</p>
-        </button>
-        <button>
-          <BiLogoPlayStore size={50} color="var(--primary-green)" />
-          <p>Google Play</p>
-        </button>
-      </div>
+      <div className="left">
+        <div className="download-buttons">
+          <button>
+            <BiLogoApple size={50} color="var(--primary-green)" />
+            <p>App store</p>
+          </button>
+          <button>
+            <BiLogoPlayStore size={50} color="var(--primary-green)" />
+            <p>Google Play</p>
+          </button>
+        </div>
 
-      <BsArrowDown
-        className="arrow-down"
-        size={40}
-        color="var(--primary-green)"
-      />
+        <BsArrowDown
+          className="arrow-down"
+          size={40}
+          color="var(--primary-green)"
+        />
+      </div>
 
       <div className="right">
         <p className="temp-data">

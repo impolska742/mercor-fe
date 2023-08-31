@@ -16,11 +16,20 @@
   cursor: pointer;
 }
 
+.left {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0.5;
+}
+
 .right {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
+  flex: 0.5;
 }
 
 .download-buttons > button {
@@ -51,10 +60,11 @@
 
 .temp-data {
   font-size: 10px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.5);
   font-family: "Exo";
   width: 100%;
-  max-width: 300px;
+  max-width: 450px;
+  font-weight: 600;
 }
 
 .download-buttons > button > p {
