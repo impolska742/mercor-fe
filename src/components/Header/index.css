@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  padding: 20px 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.option-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 70%;
+}
+
+.option {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Exo", sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.option:hover,
+.option:focus {
+  transition: 0.3s ease-in-out color;
+  color: var(--primary-green);
+}
